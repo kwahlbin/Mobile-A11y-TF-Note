@@ -35,8 +35,8 @@
 <p><em>Note:</em> No fitting success criteria under guideline "Operable" (due to its exclusive keyboard focus) </p>
 <h2><span id="User_Agent_and_Assistive_Technology_Support_Notes">User Agent and Assistive Technology Support Notes</span></h2>
 <h2><span id="Description">Description</span></h2>
-<p>The objective of this technique is to prevent the unintentional   triggering of events in touch and mouse interaction. Mouse users   clicking on actionable elements (links, buttons, submit inputs) should   have the opportunity to move the cursor outside the element to prevent   the event from being triggered. This allows users to change their mind   without be forced to commit to an action. </p>
-<p>In the same way, elements accessed via touch interaction should   trigger the event (navigation, submits, etc.) only when the touchend   event is fired (i.e., the user has lifted the finger off the screen AND   the last position of the finger is inside the actionable element AND   equals the position at touchstart). </p>
+<p>The objective of this technique is to prevent the unintentional triggering of events in touch and mouse interaction. Mouse users   clicking on actionable elements (links, buttons, submit inputs) should   have the opportunity to move the cursor outside the element to prevent   the event from being triggered. This allows users to change their mind   without be forced to commit to an action. </p>
+<p>In the same way, elements accessed via touch interaction should trigger the event (navigation, submits, etc.) only when the touchend   event is fired (i.e., the user has lifted the finger off the screen AND   the last position of the finger is inside the actionable element AND   equals the position at touchstart). </p>
 <h2><span id="Examples">Examples</span></h2>
 <ul>
   <li> A web form for online purchasing includes a "Buy now" submit at the   end of the order form. A mouse user clicking on the submit input but   releasing the mouse button outside its boundaries will not fire the   event and thereby not commit to the action of purchasing. </li>
